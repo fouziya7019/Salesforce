@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-    @FindBy(id="username")
+    @FindBy(id="usernametets")
     private WebElement untbx;
     @FindBy(name="pw")
     private WebElement pwtb;
