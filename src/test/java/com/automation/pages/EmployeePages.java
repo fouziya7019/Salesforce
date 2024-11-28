@@ -37,18 +37,14 @@ public WebElement Savebutton;
         Thread.sleep(2000);
         NewButton.sendKeys(Keys.ENTER);
         Thread.sleep(2000);
-
-
         EmpID.sendKeys(ID);
         Thread.sleep(2000);
         Nametextbox.sendKeys(name);
         Thread.sleep(2000);
         costtextbox.sendKeys(Cost);
         Thread.sleep(2000);
-
         BusinessUnit.click();
         Thread.sleep(2000);
-
         businessunitdropdown.click();
         Savebutton.click();
         Log.info("for info only");
